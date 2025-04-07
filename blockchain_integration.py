@@ -85,7 +85,10 @@ class BlockchainRecipeStorage:
             
             # Wait for transaction receipt
             receipt = self.w3.eth.wait_for_transaction_receipt(tx_hash)
-            print(f"Transaction confirmed in block {receipt.block_number}")
+            
+            # Access block_number as a dictionary key instead of an attribute
+            print(f"Transaction confirmed in block {receipt['blockNumber']}")
+            
             return receipt
         
         except Exception as e:
