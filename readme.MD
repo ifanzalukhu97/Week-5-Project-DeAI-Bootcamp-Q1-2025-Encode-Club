@@ -7,7 +7,7 @@ This project is an evolution of the [Week 1 Project](https://github.com/ifanzalu
 3. Integration of Web3 capabilities to create a more decentralized and transparent AI service
 
 ## Project Result
-![Project Result](result.png)
+![Project Result](images/result.png)
 
 ## Project Description
 
