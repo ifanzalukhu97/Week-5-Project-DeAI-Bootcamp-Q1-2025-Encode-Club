@@ -16,6 +16,37 @@ This project involves developing a decentralized Chef GPT Script with unique per
 
 Each script features a distinct AI chef personality, powered by decentralized AI inference and blockchain storage.
 
+## Project Results
+
+![Project Result - Recipe Creation and Blockchain Storage](result.png)
+
+## Features
+
+1. **AI Chef Personalities**:
+   - Indian chef specializing in Biryani
+   - Italian chef with pasta expertise
+   - Brazilian grandma with classic recipes
+
+2. **Recipe Management**:
+   - Generate recipes using AI
+   - Store recipes on blockchain
+   - Retrieve stored recipes
+   - Update and delete recipes (by owner)
+
+3. **Blockchain Integration**:
+   - Decentralized recipe storage
+   - Recipe ownership tracking
+   - Transparent recipe history
+   - Immutable recipe records
+
+## Contract Deployment Information
+
+The smart contract has been deployed with the following details:
+- **Contract Name**: RecipeStorage
+- **Contract Address**: `0x5FbDB2315678afecb367f032d93F642f64180aa3`
+- **Network**: Local Hardhat Network (chainId: 31337)
+- **Solidity Version**: 0.8.28
+
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
 - You have installed Python 3.8 or later
@@ -23,13 +54,6 @@ Before you begin, ensure you have met the following requirements:
 - You have Node.js installed (Note: Currently using v23.10.0, but recommended to use LTS version)
 - You have npm installed for smart contract development
 - You have set up your Together AI API key (Sign up at https://api.together.ai/signin)
-
-## Contract Deployment Information
-The smart contract has been deployed with the following details:
-- **Contract Name**: RecipeStorage
-- **Contract Address**: `0x5FbDB2315678afecb367f032d93F642f64180aa3`
-- **Network**: Local Hardhat Network (chainId: 31337)
-- **Solidity Version**: 0.8.28
 
 ## Environment Setup
 
@@ -79,34 +103,11 @@ The smart contract has been deployed with the following details:
     python main.py
     ```
 
-## Features
-
-1. **AI Chef Personalities**:
-   - Indian chef specializing in Biryani
-   - Italian chef with pasta expertise
-   - Brazilian grandma with classic recipes
-
-2. **Recipe Management**:
-   - Generate recipes using AI
-   - Store recipes on blockchain
-   - Retrieve stored recipes
-   - Update and delete recipes (by owner)
-
-3. **Blockchain Integration**:
-   - Decentralized recipe storage
-   - Recipe ownership tracking
-   - Transparent recipe history
-   - Immutable recipe records
-
-## Smart Contract Details
-
-The `RecipeStorage` smart contract (`0x5FbDB2315678afecb367f032d93F642f64180aa3`) provides:
-- Recipe creation and storage
-- Recipe retrieval by ID
-- Recipe updates (owner only)
-- Recipe deletion (owner only)
-- Chef-specific recipe listing
-- Recipe count tracking
+4. **Follow the prompts to**:
+   - Choose a chef personality
+   - Select a task (suggest a dish, provide a recipe, etc.)
+   - Save recipes to the blockchain
+   - View your saved recipes
 
 ## Troubleshooting
 
@@ -128,3 +129,4 @@ The `RecipeStorage` smart contract (`0x5FbDB2315678afecb367f032d93F642f64180aa3`
 ## Contributors
 - [ifanzalukhu97](https://github.com/ifanzalukhu97) (Unique ID: S3lFve)
 - [joyjsmun](https://github.com/ifanzalukhu97) (Unique ID: OFVwFA)
+
